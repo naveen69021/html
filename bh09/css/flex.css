@@ -1,0 +1,12 @@
+div{
+    width: 25%;
+    height: 200px;
+    margin: 0 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* space along x-axis */
+    align-items: center; /* space along y-axis */
+}

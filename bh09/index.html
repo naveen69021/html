@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            *{
+                margin: 0;
+            }
+            .category{
+                display: block;
+            }
+            #age{
+                color: blueviolet;
+            }
+            input[type="text"]{
+                padding: 5px;
+            }
+            h1{
+                font-size: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <h1>heading 1</h1>
+            <h4>heading 4</h4>
+            <label for="username" class="category">Name</label>
+            <input type="text" placeholder="Enter your name..." id="username">
+            
+            <br>
+            <label class="category">Email</label>
+            <input type="email" placeholder="Enter your email..." required>
+
+            <br>
+            <label class="category">Password</label>
+            <input type="password" placeholder="Enter your password...">
+
+            <br>
+            <label for="" id="age">Age</label>
+            <input type="number">
+
+            <br>
+            <input type="file">
+
+            <br>
+            <input type="color">
+
+            <br>
+            <input type="date">
+
+            <br>
+            <label for="" id="age">Address</label>
+            <textarea name="" id="" cols="100" rows="5"></textarea>
+
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
