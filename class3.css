@@ -1,0 +1,48 @@
+.container{
+        display: flex;
+        justify-content: center;
+}
+li{
+    display: inline;
+    margin-left: 10px;
+    color: white;
+    padding-left: 10px;
+    
+    
+}
+h2{
+    margin: 10px 250px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    width: 80px;
+}
+nav{
+    position: absolute;
+    display:flex;
+    align-items: center; 
+    
+}
+.paragraph{
+position: absolute;
+margin: 200px;
+}
+h1{
+    color: yellow;
+}
+h4{
+    color: white;
+    margin: 0px 10px 0px 20px;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    margin: 330px;
+    
+}
+.us{
+    position: absolute;
+    margin-top: 500px;
+    font-size: 200%;
+}
+span{
+    color: yellow;
+}
