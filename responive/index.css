@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(141, 141, 221);
+    
+}
+
+.head{
+    margin-left: 50px;
+    color: aliceblue;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.btns{
+    margin-right: 50px;
+}
+
+.b1{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(42, 42, 230);
+    color: aliceblue;
+}
+.b1:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.b2{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.b2:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+@media (max-width:350px){
+    nav{
+        flex-direction: column;
+        height: 300px;
+    }
+    .head{
+        margin: auto;
+    }
+    .btns{
+        flex-direction: column;
+        margin: auto;
+    }
+    p{
+        flex-direction: column;
+        margin: auto;
+
+    }
+    span{
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media(min-width:350px) and (max-width:550px) {
+    nav{
+        flex-direction: column;
+        height: 150px;
+        
+    }
+    .head{
+        margin: auto;
+    }
+    .btns{
+        flex-direction: column;
+        margin: auto;
+    }
+    p{
+        flex-direction: column;
+        margin: auto;
+
+    }
+    span{
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media(min-width:550px) and (max-width:750px) {
+    nav{
+        flex-direction: column;
+        height: 150px;
+        
+    }
+    .head{
+        margin: auto;
+    }
+    .btns{
+        flex-direction: column;
+        margin: auto;
+    }
+    p{
+        flex-direction: column;
+        margin: auto;
+
+    }
+    span{
+        flex-direction: column;
+        margin: auto;
+    }
+}
